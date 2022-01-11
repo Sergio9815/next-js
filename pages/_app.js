@@ -1,7 +1,14 @@
-import '../styles/globals.css'
+import '../styles/globals.scss'
+import { TodoProvider } from '../context';
+
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+
+  return (
+    <TodoProvider>
+      <Component {...pageProps}/>
+    </TodoProvider>
+  );
 }
 
 export default MyApp

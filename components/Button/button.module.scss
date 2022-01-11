@@ -1,0 +1,12 @@
+@import '../../styles/variables.module';
+
+.button {
+  background-color: rgb(131, 216, 231);
+  width: 200px;
+  height: 40px;
+  color: $primary-color;
+}
+
+.button:hover {
+  cursor: pointer;
+}
