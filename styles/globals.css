@@ -17,3 +17,12 @@ a {
   box-sizing: border-box;
 }
 
+.dark {
+  background-color: rgb(39, 35, 35);
+  color: #fff;
+}
+
+.light {
+  background-color: #fff;
+  color: #161616;
+}
